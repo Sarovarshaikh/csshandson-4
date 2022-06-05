@@ -1,0 +1,273 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.offering{
+    padding: 5px;
+    background-image: linear-gradient(to right, red,green,yellow);
+    text-align: center;
+}
+.offering span{
+    background-color: grey;
+    padding: 5px;
+    font-size:large;
+}
+.listHome{
+    width: 50%;
+    margin: auto;
+    background-color: #A5BECC;
+    text-align: center;
+    border: 2px solid red;
+    margin-top: 28px;
+    border-radius: 27px;
+    
+}
+.listContacts{
+margin: 20px;
+padding-left: 115px;
+font-size: 20px;
+line-height: 25px;
+
+}
+.lorembox{
+    background-color: #BDF2D5;
+    border: 2px solid red;
+    border-radius: 10px;
+    margin-top: 20px;
+
+}
+.row1{
+    display: flex; 
+    margin-left: 190px; 
+}
+
+.col1{
+    width: 28%;  
+    /* flex: 1; */
+    background-color: #37E2D5;
+    border: 2px solid red;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 9px;
+    padding-left: 10px;
+}
+.col2{
+    width: 28%;
+    /* flex: 1; */
+    background-color: #37E2D5;
+    border: 2px solid red;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 9px;
+    padding-left: 10px;
+}
+.col3{
+    width: 28%;
+    /* flex: 1; */
+    background-color: #37E2D5;
+    border: 2px solid red;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 9px;
+    padding-left: 10px;
+}
+.col4{
+    width: 26%;
+    /* flex: 1; */
+    background-color: #37E2D5;
+    border: 2px solid red;
+    justify-content: space-between;
+    /* margin-left: 10px;
+    margin-right: 10px; */
+    border-radius: 9px;
+    padding-left: 10px;
+    position: relative;
+    left: 592px;
+}
+.performance{
+    padding: 5px;
+    background-image: linear-gradient(to right, red,yellow,red);
+    text-align: center; 
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    text-decoration: underline;
+    font-size: larger;
+}
+.jeemain{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 141px;
+    background-image: radial-gradient(blue ,green);
+    padding-top: 110px;
+    padding-bottom: 113px;
+}
+
+.akash{
+    background-color: yellow;
+    border: 2px solid red;
+    border-radius: 20px;
+    margin-left: 77px;
+
+}
+.akash p{
+    text-align: center;
+    font-size: x-large;
+    color: red;
+    text-decoration: underline;
+    padding-bottom: 10px;
+    line-height: 32px;
+    font-weight: 700;
+}
+.rishav{
+    background-color: yellow;
+    border: 2px solid red;
+    border-radius:20px;  
+}
+.rishav p{
+    text-align: center;
+    font-size: x-large;
+    color: red;
+    text-decoration: underline;
+    padding-bottom: 10px;
+    line-height: 32px;
+    font-weight: 700;
+}
+
+.grouvraj{
+    background-color: yellow;
+    border: 2px solid red;
+    border-radius:20px; 
+}
+.grouvraj p{
+    text-align: center;
+    font-size: x-large;
+    color: red;
+    text-decoration: underline;
+    padding-bottom: 10px;
+    line-height: 32px;
+    font-weight: 700;  
+}
+.shivam{
+    background-color: yellow;
+    border: 2px solid red;
+    border-radius: 20px;
+    margin-right: 77px;
+}
+.shivam p{
+    text-align: center;
+    font-size: x-large;
+    color: red;
+    text-decoration: underline;
+    padding-bottom: 10px;
+    line-height: 32px;
+    font-weight: 700;  
+}
+.bestcareer{
+    background-color: red;
+    color: white;
+    font-weight: 700;
+    font-size: xx-large;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.main{
+    display: grid;
+    grid-template-areas: 
+    "ma ma  r r w w m"
+    " f f f f f f m"
+    "a a a a a a a ";
+    /* border: 2px solid red; */
+    text-align: center;
+    gap: 20px 20px;
+}
+.div1{
+    grid-area:w;
+    /* border: 5px solid red; */
+    text-align:initial;
+    font-size: 25px;
+    margin-bottom :127px;
+    background-color: #0e4064;
+    font-weight: bolder;
+    color: white;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+.div2{
+    grid-area:m;
+    /* border: 5px solid red; */
+    text-align: center;
+    /* padding-left: 30px; */
+    background-color: #000;
+    color: white;
+    font-weight: 700;
+    font-size: x-large;
+    margin-bottom: 130px;
+
+
+}
+.div3{
+    grid-area:f;
+    /* border: 5px solid red; */
+    /* text-align: center; */
+    padding-bottom: 86px;
+    font-size: x-large;
+    /* margin-bottom: 142px; */
+    position: relative;
+    bottom: 125px;
+    padding-top: 0px;
+    text-align: initial;
+    font-family: sans-serif;
+    background-color: orange;
+    color: white;
+
+}
+.div4{
+    grid-area: ma;
+    /* border: 5px solid red; */
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 127px;
+    background-color: lightgreen;
+    font-weight: bolder;
+    color: white;
+    padding-top: 5px;
+}
+.div5{
+    grid-area: r;
+    /* border: 5px solid red; */
+    text-align:initial;
+    font-size: 25px;
+    margin-bottom:130px;
+    background-color: #1491ec;;
+    font-weight: bolder;
+    color: white;
+    padding-top: 5px;
+    padding-left: 5px;
+
+}
+.div6{
+    grid-area:a;
+    text-align: center;
+    font-size: x-large;  
+    font-weight: 700;
+    background-color: aqua;
+    font-size: x-large;
+    /* margin-bottom: 142px; */
+    position: relative;
+    bottom: 125px;
+    padding-top: 0px;
+    /* text-align: initial; */
+    font-family: sans-serif;
+    /* background-color: orange; */
+    color: black; 
+    padding: 8px;
+}
+.text-underline{
+    text-decoration: underline;
+}
